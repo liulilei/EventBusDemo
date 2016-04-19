@@ -406,12 +406,10 @@ public void onUserEvent(UserEvent event) {    }
 
 @Subscribe(threadMode = ThreadMode.PostThread) //默认方式, 在发送线程执行
 public void onUserEvent(UserEvent event) {    }
+其他的用法基本不变。
 
 
-
-[backcolor=rgba(128, 128, 128, 0.0470588)]其他的用法基本不变。
 转载于： http://blog.csdn.net/lmj623565791/article/details/40794879，本文出自：【张鸿洋的博客】
-
 
 更有EventBus 的源码详细讲解 也可以参考：
 
